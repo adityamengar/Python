@@ -35,3 +35,5 @@ print('I like "Monty Python"') <-- here we can add single quotes also  \
 we can use \ to show the ' and " inside the apostrophes and quotes \
 
 # BOOLEAN VALUES
+they are the two constant objects True and False; \
+where 1 is True and 0 is False
