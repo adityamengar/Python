@@ -1,3 +1,4 @@
+# INTEGERS
 In Integers There are 2 addition conventions in Pthon that we havent seen  \
 1st one is Octal representation And the second one is Hexadecimal Representation  \
 FOR OCTAL WE PRECEED WITH PREFIX 0o or 0O (zero-o) then it will be treated as octal value \
@@ -22,3 +23,15 @@ where E or e is exponent and in python it shows "phrase times ten to the power o
 so by using it we can write \
 speedoflight = 3E8  \
 one more eg: we can write 6.62607 x 10^(-34)  as  6.62607E-34  \
+
+# STRINGS
+In strings we know that we use quotes inside print function to show the string but there is a catch \
+what if we wanna show Quotes inside strings  \
+we can use '\' this is called backslash Adding \" forces Python to print an actual quotation mark on the screen instead of closing the string. \
+eg: Show (I like "Monty Python") this as output give input  \
+print("I like \"Monty Python\"")  \
+or  \
+print('I like "Monty Python"') <-- here we can add single quotes also  \
+we can use \ to show the ' and " inside the apostrophes and quotes \
+
+# BOOLEAN VALUES
