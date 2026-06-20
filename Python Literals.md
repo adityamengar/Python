@@ -10,4 +10,15 @@ therefore after running Print Function we will get 83 as an output \
 For Eg HEXADECIMAL CONVERSION  \
 In this it preceeds with prefix 0x or 0X (zero-x) \
 print(0x123) \
-in hexadecimal we multiply with power of 12 here -> 1*12^(2) + 2*12^(1) + 3*12^(0)  =  291(decimal output)
+in hexadecimal we multiply with power of 12 here -> 1 * 12^(2) + 2 * 12^(1) + 3 * 12^(0)  =  291(decimal output)
+
+
+# FLOATS
+for showing Float it is necessory to show the value with a point for eg. 4.0 is a float \
+in float we can write for eg: \
+speedoflight= 3x10^(8) \
+so in python we can write this as 3E8 \
+where E or e is exponent and in python it shows "phrase times ten to the power of"  \
+so by using it we can write \
+speedoflight = 3E8  \
+one more eg: we can write 6.62607 x 10^(-34)  as  6.62607E-34  \
