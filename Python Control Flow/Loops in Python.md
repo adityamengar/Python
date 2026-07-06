@@ -3,6 +3,8 @@
 ### 1. Types of Loops
 * **`while` Loop:** Runs continuously as long as a specific condition remains true. It is ideal when you don't know the exact number of iterations in advance.
 * **`for` Loop:** Iterates a specific number of times over a sequence (such as a string, list, or collection) or a generated range of numbers.
+-> the for keyword opens the for loop; note – there's no condition after it; you don't have to think about conditions, as they're checked internally, without any intervention;
+any variable after the for keyword is the control variable of the loop; it counts the loop's turns, and does it automatically;
 
 ### 2. Loop Control Statements
 * **`break`:** Instantly exits and terminates the entire loop, moving program execution to the next section of code outside the loop.
