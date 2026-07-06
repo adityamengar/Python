@@ -19,3 +19,10 @@ Generates a sequence of integers used for counting or loop control. It accepts u
 * **Start:** The starting number of the sequence (defaults to `0` if left blank).
 * **Stop:** The end limit of the sequence. **Crucial note:** This target number itself is excluded from the final output.
 * **Step:** The interval or gap between each number in the sequence (defaults to `1`, but can be negative for counting backward).
+
+
+# EXAMPLES
+for i in range(100):
+    # do_something()
+    pass
+the 'in' keyword introduces a syntax element describing the range of possible values being assigned to the control variable;
