@@ -22,7 +22,14 @@ Generates a sequence of integers used for counting or loop control. It accepts u
 
 
 # EXAMPLES
+-> for 'range' Function 
 for i in range(100):
     # do_something()
     pass
 the 'in' keyword introduces a syntax element describing the range of possible values being assigned to the control variable;
+
+->  For 'Range' Function Using 3 arguments
+for i in range(2, 8, 3):
+    print("The value of i is currently", i)
+
+(Here The third argument is an increment – it's a value added to control the variable at every loop turn (as you may suspect, the default value of the increment is 1))
