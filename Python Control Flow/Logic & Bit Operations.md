@@ -30,7 +30,6 @@ It's a unary operator performing a logical negation. Its operation is simple: it
 | True | False |
 
 # Logical v/s Bitwise Operations
-### 🔹 Logical vs. Bitwise Operations
 
 #### **The Core Difference**
 * **Logical Operators (`and`, `or`, `not`):** Treat the entire number as a single value (Zero = `False`, Non-Zero = `True`).
