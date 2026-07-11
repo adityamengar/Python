@@ -1,0 +1,2 @@
+# LIST
+A list is a built-in, mutable, and ordered collection of items enclosed in square brackets []. It allows you to store multiple values in a single variable, maintain their insertion order, and mix different data types (like integers, strings, and booleans) within the same container.
