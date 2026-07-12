@@ -3,3 +3,9 @@ A list is a built-in, mutable, and ordered collection of items enclosed in squar
 eg: numbers = [10, 5, 7, 2, 1]
 assigned no. =  0, 1, 2, 3, 4
 [ Python has adopted a convention stating that the elements in a list are always numbered starting from zero. This means that the item stored at the beginning of the list will have the number zero. Since there are five elements in our list, the last of them is assigned the number four. Don't forget this. ]
+
+# The len() function
+If you want to check the list's current length, you can use a function named len() (its name comes from length).
+
+# Removing elements from a list 'del'
+Any of the list's elements may be removed at any time ‒ this is done with an instruction named del (delete). Note: it's an instruction, not a function.
