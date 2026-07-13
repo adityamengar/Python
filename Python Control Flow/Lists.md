@@ -11,8 +11,13 @@ If you want to check the list's current length, you can use a function named len
 Any of the list's elements may be removed at any time ‒ this is done with an instruction named del (delete). Note: it's an instruction, not a function.  
   
 # Negative indices are legal
-An element with an index equal to -1 is the last one in the list
-eg:- 
-numbers = [111, 7, 2, 1]
-print(numbers[-1])
-Output: 1
+An element with an index equal to -1 is the last one in the list  
+eg:-   
+numbers = [111, 7, 2, 1]  
+print(numbers[-1])  
+Output: 1  
+
+Similarly, the element with an index equal to -2 is the one before last in the list  
+numbers = [111, 7, 2, 1]  
+print(numbers[-2])  
+Output: 2  
