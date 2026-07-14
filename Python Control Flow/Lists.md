@@ -21,3 +21,8 @@ Similarly, the element with an index equal to -2 is the one before last in the l
 numbers = [111, 7, 2, 1]  
 print(numbers[-2])  
 Output: 2  
+
+# Adding Elements To A List: append() & insert()
+append(): It takes its argument's value and puts it at the end of the list
+
+insert():  it can add a new element at any place in the list, not only at the end.
