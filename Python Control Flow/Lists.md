@@ -23,6 +23,7 @@ print(numbers[-2])
 Output: 2  
 
 # Adding Elements To A List: append() & insert()
-append(): It takes its argument's value and puts it at the end of the list
+append(): It takes its argument's value and puts it at the end of the list. -> list.append(value)
 
-insert():  it can add a new element at any place in the list, not only at the end.
+insert():  it can add a new element at any place in the list, not only at the end. -> list.insert(location, value)
+
