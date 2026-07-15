@@ -39,3 +39,36 @@ for i in range(len(my_list)):
 print(total)  
 
 OUTPUT: 27  
+
+## SECOND ASPECT OF THE 'for' Loop:  
+my_list = [10, 1, 8, 3, 5]  
+total = 0  
+
+for i in my_list:  
+    total += i  
+
+print(total)  
+
+OUTPUT: 27  
+-> for i in my_list: goes through each item in the list.  
+-> i stores one item at a time.  
+-> The loop runs once for every item.  
+-> No index is needed.  
+-> len() is not required.  
+
+## Python offers a more convenient way of doing the swap  
+variable_1 = 1  
+variable_2 = 2  
+  
+variable_1, variable_2 = variable_2, variable_1  
+
+## We can easily swap the list's elements to reverse their order:
+
+my_list = [10, 1, 8, 3, 5]
+ 
+my_list[0], my_list[4] = my_list[4], my_list[0]
+my_list[1], my_list[3] = my_list[3], my_list[1]
+ 
+print(my_list)
+
+OUTPUT: [5, 3, 8, 1, 10]
