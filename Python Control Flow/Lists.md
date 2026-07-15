@@ -27,3 +27,15 @@ append(): It takes its argument's value and puts it at the end of the list. -> l
 
 insert():  it can add a new element at any place in the list, not only at the end. -> list.insert(location, value)
 
+## MAKING USE OF LISTS
+The for loop has a special variant that can process lists very effectively
+Eg:
+my_list = [10, 1, 8, 3, 5]
+total = 0
+
+for i in range(len(my_list)):
+    total += my_list[i]
+
+print(total)
+
+OUTPUT: 27
