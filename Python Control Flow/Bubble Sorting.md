@@ -9,3 +9,4 @@ Bubble sort is a foundational, comparison-based sorting algorithm. It repeatedly
 -> the essence of this algorithm is simple: we compare the adjacent elements, and by swapping some of them, we achieve our goal.  
 
 ## Sorting a list:
+We solve this issue in the following way: we introduce another variable; its task is to observe if any swap has been done during the pass or not; if there is no swap, then the list is already sorted, and nothing more has to be done. We create a variable named swapped, and we assign a value of False to it, to indicate that there are no swaps. Otherwise, it will be assigned True.
