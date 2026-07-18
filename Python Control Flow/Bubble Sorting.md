@@ -7,3 +7,5 @@ Bubble sort is a foundational, comparison-based sorting algorithm. It repeatedly
 -> decreasing (or more precisely ‒ non-increasing) ‒ if in every pair of adjacent elements, the former element is not less than the latter.  
 
 -> the essence of this algorithm is simple: we compare the adjacent elements, and by swapping some of them, we achieve our goal.  
+
+## Sorting a list:
