@@ -24,3 +24,14 @@ my_list.sort()
 print(my_list)  
 
 Output: [2, 4, 6, 8, 10]  
+
+## 2. There is also a list method called reverse(), which you can use to reverse the list, e.g.:
+
+
+lst = [5, 3, 1, 2, 4]
+print(lst)
+ 
+lst.reverse()
+print(lst)  
+
+outputs: [4, 2, 1, 3, 5]
