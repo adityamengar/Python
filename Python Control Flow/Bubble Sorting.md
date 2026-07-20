@@ -29,9 +29,9 @@ Output: [2, 4, 6, 8, 10]
 
 
 lst = [5, 3, 1, 2, 4]  
-print(lst)
+print(lst)  
  
-lst.reverse()
+lst.reverse()  
 print(lst)  
 
-outputs: [4, 2, 1, 3, 5]
+outputs: [4, 2, 1, 3, 5]  
