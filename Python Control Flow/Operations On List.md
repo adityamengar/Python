@@ -14,3 +14,4 @@ Output:
   
 # Powerful Slices  
 A slice is an element of Python syntax that allows you to make a brand new copy of a list, or parts of a list.
+It actually copies the list's contents, not the list's name.
