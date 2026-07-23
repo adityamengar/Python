@@ -23,3 +23,10 @@ list_1[0] = 2
 print(list_2)  
 
 OUTPUT IS [1] //This inconspicuous part of the code described as [:] is able to produce a brand new list.This inconspicuous part of the code described as [:] is able to produce a brand new list.  
+
+# Slices - Nneative Indices
+my_list[start:end]
+ 
+To repeat:
+'start' is the index of the first element included in the slice;
+'end' is the index of the first element not included in the slice.
