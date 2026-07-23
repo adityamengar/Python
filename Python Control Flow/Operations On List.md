@@ -24,17 +24,27 @@ print(list_2)
 
 OUTPUT IS [1] //This inconspicuous part of the code described as [:] is able to produce a brand new list.This inconspicuous part of the code described as [:] is able to produce a brand new list.  
 
-# Slices - Negative Indices
-my_list[start:end]
+# Slices - Negative Indices  
+my_list[start:end]  
  
-To repeat:
-'start' is the index of the first element included in the slice;
-'end' is the index of the first element not included in the slice.
+-->To repeat:  
+   'start' is the index of the first element included in the slice;  
+   'end' is the index of the first element not included in the slice.  
 
-eg:
-my_list = [10, 8, 6, 4, 2]
-new_list = my_list[1:-1]
-print(new_list)
+eg:  
+my_list = [10, 8, 6, 4, 2]  
+new_list = my_list[1:-1]  
+print(new_list)  
 
-OUTPUT:
-[8,6,4]
+OUTPUT:  
+[8,6,4]  
+
+--> If the start specifies an element lying further than the one described by the end (from the list's beginning), the slice will be empty:  
+
+
+my_list = [10, 8, 6, 4, 2]  
+new_list = my_list[-1:1]  
+print(new_list)  
+
+OUTPUT:  
+[]  
