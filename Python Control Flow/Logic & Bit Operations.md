@@ -17,7 +17,7 @@ It's a binary operator with a lower priority than and (just like '+' compared to
 | :--- | :--- | :--- |  
 | False | False | False |  
 | False | True | True |  
-| True | False | True |  
+| True | False | True |    
 | True | True | True |  
   
 # 'NOT' OPERATOR  
@@ -25,7 +25,7 @@ It's a unary operator performing a logical negation. Its operation is simple: it
   
   
 | Argument | not Argument |  
-| :--- | :--- |  
+| :--- | :--- |    
 | False | True |  
 | True | False |  
   
@@ -57,4 +57,5 @@ Instead of writing out the full math, you can use these shortcuts to update a va
 * `i ^= j` ➡️ Same as `i = i ^ j`  
 * `i <<= n` ➡️ Same as `i = i << n` (Shift bits left)  
 * `i >>= n` ➡️ Same as `i = i >> n` (Shift bits right)  
+  
   
